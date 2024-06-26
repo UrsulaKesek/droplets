@@ -13,7 +13,7 @@ body{
     position:relative;
     top:10px;
     left:100px;
-    animation-name: fall;
+    animation: fall 8s linear 5s infinite;
 }
 @keyframes fall {
   0% {
