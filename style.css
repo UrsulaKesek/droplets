@@ -13,6 +13,16 @@ body{
     position:relative;
     top:10px;
     left:100px;
+}
+
+
+.drop{
+    width:150px;
+    height: 150px;
+    background:transparent;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.5),
+    inset -10px -10px 15px rgba(255,255,255,0.9);
     animation: fall 4s linear 5s infinite;
 }
 @keyframes fall {
@@ -24,14 +34,6 @@ body{
   }
 }
 
-.drop{
-    width:150px;
-    height: 150px;
-    background:transparent;
-    border-radius: 50%;
-    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.5),
-    inset -10px -10px 15px rgba(255,255,255,0.9);
-}
 .drop::before{
     content:"" ;
     position: absolute;
