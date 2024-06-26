@@ -5,21 +5,23 @@
 }
 body{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 100vh;
     background:#284c4a ;
-    animation: glow linear 5s infinite;
+    animation: glow 4s linear 15s infinite;
 }
 @keyframes glow{
-  0%{background-color:rgb(31, 157, 144);}
-  50%{background-color:rgb(98,229,216) ;}
-  100%{background-color: cadetblue;}
+  0%{background-color:rgb(30, 58, 55);}
+  25%{background-color:rgb(98,229,216) ;}
+  50%{background-color: rgb(8, 136, 127);}
+  75%{background-color: rgb(8, 82, 102);}
+  100%{background-color: rgb(5, 66, 68);}
 }
 .drops{
     position:relative;
     top:10px;
     left:100px;
-    animation: fall 4s linear 5s infinite;
+    animation: fall 5s linear 15s infinite;
   }
   @keyframes fall {
     0% {
@@ -32,9 +34,9 @@ body{
 
 .drops1{
   position:relative;
-  top:-10px;
+  top:-50px;
   left:100px;
-  animation: fall 5s linear 10s infinite;
+  animation: fall 3s linear 10s infinite;
 }
 @keyframes fall {
   0% {
@@ -44,6 +46,21 @@ body{
     top: 1000px;
   }
 }
+.drops2{
+  position:relative;
+  top:-50px;
+  left:50px;
+  animation: fall 2s linear 12s infinite;
+}
+@keyframes fall {
+  0% {
+    top: 10px;
+  }
+  100% {
+    top: 1000px;
+  }
+}
+
 .drop,.drop1,.drop2{
     width:150px;
     height: 150px;
@@ -52,16 +69,31 @@ body{
     box-shadow: inset 10px 10px 10px rgba(0,0,0,0.5),
     inset -10px -10px 15px rgba(255,255,255,0.9);
 }
+.drop:nth-child(2){
+  transform:scale(0.75) translate(200px,180px);
+}
+.drop:nth-child(3){
+  transform:scale(0.25) translate(250px,80px);
+
+}
+.drop:nth-child(4){
+  transform:scale(0.33) translate(350px,60px);
+  
+}
+.drop:nth-child(5){
+  transform:scale(0.66) translate(350px,20px);
+  
+}
 .drop1{
   position: relative;
-  top:-30px;
-  left:150px;
+  top:-130px;
+  left:550px;
   transform :scale(0.75); 
 }
 .drop2{
   position: relative;
-  top:-100px;
-  left:250px;
+  top:-200px;
+  left:1250px;
   transform :scale(0.50); 
 }
 .drop::before,.drop1::before,.drop2::before{
@@ -69,19 +101,23 @@ body{
     position: absolute;
     top:25px;
     left:35px;
-    background:rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
     width:20px;
     height:20px;
     border-radius: 50%;
-}
+  }
+  
+
 .drop::after,.drop1::after,.drop2::after{
     content:"" ;
     position: absolute;
     top:25px;
     left:65px;
-    background:rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
     width:10px;
     height:10px;
     border-radius: 50%;
-}
+
+  }
+
 
