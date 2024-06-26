@@ -73,15 +73,15 @@ body{
   transform:scale(0.75) translate(200px,180px);
 }
 .drop:nth-child(3){
-  transform:scale(0.25) translate(250px,80px);
+  transform:scale(1.05) translate(250px,80px);
 
 }
 .drop:nth-child(4){
-  transform:scale(0.33) translate(350px,60px);
+  transform:scale(1.1) translate(350px,60px);
   
 }
 .drop:nth-child(5){
-  transform:scale(0.66) translate(350px,20px);
+  transform:scale(0.75) translate(350px,20px);
   
 }
 .drop1{
