@@ -7,10 +7,10 @@ body {
   display: flex;
   flex-direction: row;
   min-height: 100vh;
-  background-image:url("../droplets/Images/kg-orchids.png");
-  animation: glow 4s linear 15s infinite;
+  background-image:url("./Images/kg-orchids.png");
+  /*animation: glow 4s linear 15s infinite;*/
 }
-@keyframes glow {
+/*@keyframes glow {
   0% {
     background-color: rgb(30, 58, 55);
   }
@@ -26,7 +26,7 @@ body {
   100% {
     background-color: rgb(5, 66, 68);
   }
-}
+}*/
 .drops {
   position: relative;
   top: 10px;
