@@ -8,14 +8,14 @@ body{
     flex-direction: row;
     min-height: 100vh;
     background:#284c4a ;
-    animation: glow 4s linear 15s infinite;
+    /*animation: glow 4s linear 15s infinite;
 }
 @keyframes glow{
   0%{background-color:rgb(30, 58, 55);}
   25%{background-color:rgb(51, 124, 117) ;}
   50%{background-color: rgb(8, 136, 127);}
   75%{background-color: rgb(8, 82, 102);}
-  100%{background-color: rgb(5, 66, 68);}
+  100%{background-color: rgb(5, 66, 68);}*/
 }
 .drops{
     position:relative;
@@ -73,7 +73,7 @@ body{
   transform:scale(0.75) translate(200px,180px);
 }
 .drop:nth-child(3),.drop1:nth-child(3),.drop2:nth-child(3){
-  transform:scale(065) translate(250px,80px);
+  transform:scale(0.65) translate(1050px,80px);
 
 }
 .drop:nth-child(4),.drop1:nth-child(4),.drop2:nth-child(4){
@@ -81,9 +81,30 @@ body{
   
 }
 .drop:nth-child(5),.drop1:nth-child(5),.drop2:nth-child(5){
-  transform:scale(0.55) translate(350px,20px);
+  transform:scale(0.75) translate(350px,20px);
   
 }
+.drop:nth-child(6),.drop1:nth-child(6),.drop2:nth-child(6){
+  transform:scale(0.7) translate(350px,70px);
+  
+}
+.drop:nth-child(7),.drop1:nth-child(7),.drop2:nth-child(7){
+  transform:scale(0.66) translate(250px,90px);
+
+  
+}
+.drop:nth-child(8),.drop1:nth-child(8),.drop2:nth-child(8){
+  transform:scale(0.66) translate(550px,120px);
+  
+  
+}
+.drop:nth-child(9),.drop1:nth-child(9),.drop2:nth-child(9){
+  transform:scale(0.66) translate(250px,20px);
+  
+  
+}
+
+
 .drop1{
   position: relative;
   top:-130px;
