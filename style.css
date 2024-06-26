@@ -52,3 +52,17 @@ body{
     height:10px;
     border-radius: 50%;
 }
+.drop:nth-child(2){
+  transform: scale(0.75) translate(200px, 180px);
+  animation: fall 2s linear 6s infinite;
+}
+@keyframes fall {
+  0% {
+    top: 10px;
+  }
+  100% {
+    top: 1000px;
+  }
+}
+
+
