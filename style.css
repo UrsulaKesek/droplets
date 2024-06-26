@@ -7,23 +7,34 @@ body{
     display:flex;
     flex-direction: column;
     min-height: 100vh;
-    background:#1fe6dc ;
+    background:#284c4a ;
+    animation: glow linear 5s infinite;
+}
+@keyframes glow{
+  0%{background-color:rgb(31, 157, 144);}
+  50%{background-color:rgb(98,229,216) ;}
+  100%{background-color: cadetblue;}
 }
 .drops{
     position:relative;
     top:10px;
     left:100px;
+    animation: fall 4s linear 5s infinite;
+  }
+  @keyframes fall {
+    0% {
+      top: 10px;
+    }
+    100% {
+      top: 1000px;
+    }
 }
 
-
-.drop{
-    width:150px;
-    height: 150px;
-    background:transparent;
-    border-radius: 50%;
-    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.5),
-    inset -10px -10px 15px rgba(255,255,255,0.9);
-    animation: fall 4s linear 5s infinite;
+.drops1{
+  position:relative;
+  top:-10px;
+  left:100px;
+  animation: fall 5s linear 10s infinite;
 }
 @keyframes fall {
   0% {
@@ -33,8 +44,27 @@ body{
     top: 1000px;
   }
 }
-
-.drop::before{
+.drop,.drop1,.drop2{
+    width:150px;
+    height: 150px;
+    background:transparent;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.5),
+    inset -10px -10px 15px rgba(255,255,255,0.9);
+}
+.drop1{
+  position: relative;
+  top:-30px;
+  left:150px;
+  transform :scale(0.75); 
+}
+.drop2{
+  position: relative;
+  top:-100px;
+  left:250px;
+  transform :scale(0.50); 
+}
+.drop::before,.drop1::before,.drop2::before{
     content:"" ;
     position: absolute;
     top:25px;
@@ -44,7 +74,7 @@ body{
     height:20px;
     border-radius: 50%;
 }
-.drop::after{
+.drop::after,.drop1::after,.drop2::after{
     content:"" ;
     position: absolute;
     top:25px;
@@ -54,17 +84,4 @@ body{
     height:10px;
     border-radius: 50%;
 }
-.drop:nth-child(2){
-  transform: scale(0.75) translate(200px, 180px);
-  animation: fall 2s linear 6s infinite;
-}
-@keyframes fall {
-  0% {
-    top: 10px;
-  }
-  100% {
-    top: 1000px;
-  }
-}
-
 
