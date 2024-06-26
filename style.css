@@ -7,7 +7,8 @@ body {
   display: flex;
   flex-direction: row;
   min-height: 100vh;
-  background-image:url("./Images/kg-orchids.png");
+  background-image: url("./Images/kg-orchids.png");
+  background-position: center;
   /*animation: glow 4s linear 15s infinite;*/
 }
 /*@keyframes glow {
@@ -29,8 +30,10 @@ body {
 }*/
 .drops {
   position: relative;
-  top: 10px;
+  top: -50px;
   left: 100px;
+  width: 0.33vw;
+
   animation: fall 5s linear 15s infinite;
 }
 @keyframes fall {
@@ -46,6 +49,7 @@ body {
   position: relative;
   top: -50px;
   left: 100px;
+  width: 0.33vw;
   animation: fall 3s linear 10s infinite;
 }
 @keyframes fall {
@@ -60,6 +64,8 @@ body {
   position: relative;
   top: -50px;
   left: 50px;
+  width: 0.33vw;
+
   animation: fall 2s linear 12s infinite;
 }
 @keyframes fall {
@@ -216,7 +222,7 @@ body {
       top: 1000px;
     }
   }
-  
+
   .drop1 {
     position: relative;
     top: -130px;
@@ -229,7 +235,7 @@ body {
     left: 50px;
     transform: scale(0.5);
   }
-  
+
   .drop:nth-child(2),
   .drop1:nth-child(2),
   .drop2:nth-child(2) {
@@ -243,31 +249,31 @@ body {
   .drop:nth-child(4),
   .drop1:nth-child(4),
   .drop2:nth-child(4) {
-    transform: scale(1.1) translate(-150px, 160px);
+    transform: scale(0.8) translate(-150px, 160px);
   }
   .drop:nth-child(5),
-.drop1:nth-child(5),
-.drop2:nth-child(5) {
-  transform: scale(0.75) translate(150px, 20px);
-}
-.drop:nth-child(6),
-.drop1:nth-child(6),
-.drop2:nth-child(6) {
-  transform: scale(0.7) translate(250px, 70px);
-}
-.drop:nth-child(7),
-.drop1:nth-child(7),
-.drop2:nth-child(7) {
-  transform: scale(0.66) translate(200px, 90px);
-}
-.drop:nth-child(8),
-.drop1:nth-child(8),
-.drop2:nth-child(8) {
-  transform: scale(0.66) translate(50px, 120px);
-}
-.drop:nth-child(9),
-.drop1:nth-child(9),
-.drop2:nth-child(9) {
-  transform: scale(0.66) translate(150px, 20px);
-}
+  .drop1:nth-child(5),
+  .drop2:nth-child(5) {
+    transform: scale(0.75) translate(150px, 20px);
+  }
+  .drop:nth-child(6),
+  .drop1:nth-child(6),
+  .drop2:nth-child(6) {
+    transform: scale(0.7) translate(250px, 70px);
+  }
+  .drop:nth-child(7),
+  .drop1:nth-child(7),
+  .drop2:nth-child(7) {
+    transform: scale(0.66) translate(200px, 90px);
+  }
+  .drop:nth-child(8),
+  .drop1:nth-child(8),
+  .drop2:nth-child(8) {
+    transform: scale(0.66) translate(50px, 120px);
+  }
+  .drop:nth-child(9),
+  .drop1:nth-child(9),
+  .drop2:nth-child(9) {
+    transform: scale(0.66) translate(150px, 20px);
+  }
 }
