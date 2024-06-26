@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background:#1fe6dc ;
+}
+.drops{
+    position:relative;
+    top:10px;
+    left:100px;
+}
+.drop{
+    width:150px;
+    height: 150px;
+    background:transparent;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.5),
+    inset -10px -10px 15px rgba(255,255,255,0.9);
+}
+.drop::before{
+    content:"" ;
+    position: absolute;
+    top:25px;
+    left:35px;
+    background:rgb(255, 255, 255);
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
+.drop::after{
+    content:"" ;
+    position: absolute;
+    top:25px;
+    left:65px;
+    background:rgb(255, 255, 255);
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+}
