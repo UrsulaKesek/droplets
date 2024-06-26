@@ -12,7 +12,7 @@ body{
 }
 @keyframes glow{
   0%{background-color:rgb(30, 58, 55);}
-  25%{background-color:rgb(98,229,216) ;}
+  25%{background-color:rgb(51, 124, 117) ;}
   50%{background-color: rgb(8, 136, 127);}
   75%{background-color: rgb(8, 82, 102);}
   100%{background-color: rgb(5, 66, 68);}
