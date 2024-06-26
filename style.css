@@ -8,14 +8,14 @@ body{
     flex-direction: row;
     min-height: 100vh;
     background:#284c4a ;
-    /*animation: glow 4s linear 15s infinite;
+    animation: glow 4s linear 15s infinite;
 }
 @keyframes glow{
   0%{background-color:rgb(30, 58, 55);}
   25%{background-color:rgb(51, 124, 117) ;}
   50%{background-color: rgb(8, 136, 127);}
   75%{background-color: rgb(8, 82, 102);}
-  100%{background-color: rgb(5, 66, 68);}*/
+  100%{background-color: rgb(5, 66, 68);}
 }
 .drops{
     position:relative;
