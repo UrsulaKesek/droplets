@@ -34,7 +34,7 @@ body {
   left: 100px;
   width: 0.33vw;
 
-  animation: fall 1s linear 15s infinite;
+  animation: fall 4s linear 15s infinite;
 }
 @keyframes fall {
   0% {
