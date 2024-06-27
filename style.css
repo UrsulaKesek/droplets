@@ -196,7 +196,7 @@ body {
   .drops {
     position: relative;
     top: 10px;
-    width:375px;
+    width:auto;
     animation: fall 4s linear 15s infinite;
   }
   @keyframes fall {
@@ -211,7 +211,7 @@ body {
   .drops1 {
     position: relative;
     top: -50px;
-    width:375px;
+    width:auto;
 
     animation: fall 3s linear 10s infinite;
   }
@@ -226,7 +226,7 @@ body {
   .drops2 {
     position: relative;
     top: -50px;
-    width:375px;
+    width:auto;
 
     animation: fall 2s linear 12s infinite;
   }
