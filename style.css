@@ -34,7 +34,7 @@ body {
   left: 100px;
   width: 0.33vw;
 
-  animation: fall 5s linear 15s infinite;
+  animation: fall 1s linear 15s infinite;
 }
 @keyframes fall {
   0% {
@@ -95,7 +95,7 @@ body {
 .drop:nth-child(3),
 .drop1:nth-child(3),
 .drop2:nth-child(3) {
-  transform: scale(0.65) translate(1050px, 80px);
+  transform: scale(0.65) translate(-50px, 10px);
 }
 .drop:nth-child(4),
 .drop1:nth-child(4),
