@@ -169,8 +169,8 @@ body {
   body {
     display: flex;
     flex-direction: column;
-    background-color: coral;
-   /* animation: glow 4s linear 15s infinite;
+   /* background-color: coral;
+    animation: glow 4s linear 15s infinite;
   }
   @keyframes glow {
     0% {
@@ -286,4 +286,4 @@ body {
   .drop2:nth-child(9) {
     transform: scale(0.66) translate(150px, 20px);
   }
-}
+  }}
