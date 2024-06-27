@@ -170,6 +170,7 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url("./Images/kg-orchids2.png");
+    width:375px;
 
    /* background-color: coral;
     animation: glow 4s linear 15s infinite;
