@@ -193,6 +193,16 @@ body {
     position: relative;
     top: 10px;
     left: 10px;
+    animation: fall 4s linear 15s infinite;
+  }
+  @keyframes fall {
+    0% {
+      top: 10px;
+    }
+    100% {
+      top: 1000px;
+    }
+  
   }
   .drops1 {
     position: relative;
