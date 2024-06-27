@@ -170,7 +170,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: coral;
-    animation: glow 4s linear 15s infinite;
+   /* animation: glow 4s linear 15s infinite;
   }
   @keyframes glow {
     0% {
@@ -188,7 +188,7 @@ body {
     100% {
       background-color: rgb(231, 175, 9);
     }
-  }
+  }*/
   .drops {
     position: relative;
     top: 10px;
