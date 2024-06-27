@@ -32,7 +32,7 @@ body {
 .drops {
   position: relative;
   top: -50px;
-  left: 100px;
+  left: 0px;
   width: 0.33vw;
 
   animation: fall 4s linear 15s infinite;
@@ -49,7 +49,7 @@ body {
 .drops1 {
   position: relative;
   top: -50px;
-  left: 100px;
+  left: 0px;
   width: 0.33vw;
   animation: fall 3s linear 10s infinite;
 }
@@ -64,7 +64,7 @@ body {
 .drops2 {
   position: relative;
   top: -50px;
-  left: 50px;
+  left: 0px;
   width: 0.33vw;
 
   animation: fall 2s linear 12s infinite;
