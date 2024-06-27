@@ -207,7 +207,6 @@ body {
   .drops1 {
     position: relative;
     top: -50px;
-    left: 100px;
     animation: fall 3s linear 10s infinite;
   }
   @keyframes fall {
@@ -221,7 +220,6 @@ body {
   .drops2 {
     position: relative;
     top: -50px;
-    left: 50px;
     animation: fall 2s linear 12s infinite;
   }
   @keyframes fall {
@@ -236,13 +234,11 @@ body {
   .drop1 {
     position: relative;
     top: -130px;
-    left: 150px;
     transform: scale(0.75);
   }
   .drop2 {
     position: relative;
     top: -200px;
-    left: 50px;
     transform: scale(0.5);
   }
 
