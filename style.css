@@ -193,7 +193,7 @@ body {
   }*/
   .drops {
     position: relative;
-    top: 0px;
+    top: 10px;
     width:375px;
     animation: fall 4s linear 15s infinite;
   }
