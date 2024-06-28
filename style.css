@@ -33,7 +33,7 @@ body {
   position: relative;
   top: -50px;
   left: 0px;
-  width:33.33%vw;
+  width: 33.33%vw;
 
   /*animation: fall 4s linear 15s infinite;
 }
@@ -52,7 +52,7 @@ body {
   top: -50px;
   left: 0px;
   width: 33.33%vw;
-/*  animation: fall 3s linear 10s infinite;
+  /*  animation: fall 3s linear 10s infinite;
 }
 @keyframes fall {
   0% {
@@ -70,7 +70,7 @@ body {
   left: 0px;
   width: 33.33%vw;
 
- /* animation: fall 2s linear 12s infinite;
+  /* animation: fall 2s linear 12s infinite;
 }
 @keyframes fall {
   0% {
@@ -85,7 +85,7 @@ body {
 .drop1,
 .drop2 {
   width: 150px;
-  height:150px;
+  height: 150px;
   background: transparent;
   border-radius: 50%;
   box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.5),
@@ -94,7 +94,7 @@ body {
 .drop:nth-child(1),
 .drop1:nth-child(1),
 .drop2:nth-child(1) {
-  transform: scale(0.75) translate(400px,250px);
+  transform: scale(0.75) translate(400px, 250px);
 }
 
 .drop:nth-child(2),
