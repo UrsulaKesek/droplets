@@ -35,7 +35,7 @@ body {
   left: 0px;
   width: 33.33%vw;
 
-  /*animation: fall 4s linear 15s infinite;
+  animation: fall 4s linear 15s infinite;
 }
 @keyframes fall {
   0% {
@@ -45,14 +45,14 @@ body {
     top: 1000px;
   }
 
-*/
+
 }
 .drops1 {
   position: relative;
   top: -50px;
   left: 0px;
   width: 33.33%vw;
-  /*  animation: fall 3s linear 10s infinite;
+    animation: fall 3s linear 10s infinite;
 }
 @keyframes fall {
   0% {
@@ -62,7 +62,7 @@ body {
     top: 1000px;
   }
 
-  */
+  
 }
 .drops2 {
   position: relative;
@@ -70,7 +70,7 @@ body {
   left: 0px;
   width: 33.33%vw;
 
-  /* animation: fall 2s linear 12s infinite;
+   animation: fall 2s linear 12s infinite;
 }
 @keyframes fall {
   0% {
@@ -79,7 +79,7 @@ body {
   100% {
     top: 1000px;
   }
-*/
+
 }
 .drop,
 .drop1,
