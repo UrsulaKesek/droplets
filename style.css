@@ -33,9 +33,9 @@ body {
   position: relative;
   top: -50px;
   left: 0px;
-  width: 0.33%;
+  width:33.33%vw;
 
-  animation: fall 4s linear 15s infinite;
+  /*animation: fall 4s linear 15s infinite;
 }
 @keyframes fall {
   0% {
@@ -44,14 +44,15 @@ body {
   100% {
     top: 1000px;
   }
-}
 
+*/
+}
 .drops1 {
   position: relative;
   top: -50px;
   left: 0px;
-  width: 0.33%;
-  animation: fall 3s linear 10s infinite;
+  width: 33.33%vw;
+/*  animation: fall 3s linear 10s infinite;
 }
 @keyframes fall {
   0% {
@@ -60,14 +61,16 @@ body {
   100% {
     top: 1000px;
   }
+
+  */
 }
 .drops2 {
   position: relative;
   top: -50px;
   left: 0px;
-  width: 0.33%;
+  width: 33.33%vw;
 
-  animation: fall 2s linear 12s infinite;
+ /* animation: fall 2s linear 12s infinite;
 }
 @keyframes fall {
   0% {
@@ -76,6 +79,7 @@ body {
   100% {
     top: 1000px;
   }
+*/
 }
 .drop,
 .drop1,
@@ -90,33 +94,33 @@ body {
 .drop:nth-child(1),
 .drop1:nth-child(1),
 .drop2:nth-child(1) {
-  transform: scale(0.75) translate(50%, 50%);
+  transform: scale(0.75) translate(400px,250px);
 }
 
 .drop:nth-child(2),
 .drop1:nth-child(2),
 .drop2:nth-child(2) {
-  transform: scale(0.66) translate(10%, 10%);
+  transform: scale(0.66) translate(350px, 100px);
 }
 .drop:nth-child(3),
 .drop1:nth-child(3),
 .drop2:nth-child(3) {
-  transform: scale(0.5) translate(20%, 20%);
+  transform: scale(0.5) translate(180px, 40px);
 }
 .drop:nth-child(4),
 .drop1:nth-child(4),
 .drop2:nth-child(4) {
-  transform: scale(1.25) translate(60%, 60%);
+  transform: scale(1.25) translate(250px, 150px);
 }
 .drop:nth-child(5),
 .drop1:nth-child(5),
 .drop2:nth-child(5) {
-  transform: scale(0.33) translate(75%, 75%);
+  transform: scale(0.33) translate(375px, 500px);
 }
 .drop:nth-child(6),
 .drop1:nth-child(6),
 .drop2:nth-child(6) {
-  transform: scale(0.75) translate(33%, 66%);
+  transform: scale(0.75) translate(175px, 175px);
 }
 
 .drop1 {
