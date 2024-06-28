@@ -156,7 +156,7 @@ body {
   height: 10px;
   border-radius: 50%;
 }
-@media screen and (min-width: 428px) { 
+@media screen and (max-width: 428px) { 
   body {
     display: flex;
     flex-direction: column;
