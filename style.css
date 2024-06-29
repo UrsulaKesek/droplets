@@ -254,7 +254,7 @@ body {
     .drop:nth-child(2),
     .drop1:nth-child(2),
     .drop2:nth-child(2) {
-      transform: scale(0.75) translate(350px, 100px);
+      transform: scale(0.75) translate(220px, 100px);
       background-color: hsla(188, 100%, 50%, 0.75);
     }
     .drop:nth-child(3),
