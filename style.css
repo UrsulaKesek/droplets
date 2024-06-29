@@ -248,32 +248,32 @@ h1{
     .drop:nth-child(1),
     .drop1:nth-child(1),
     .drop2:nth-child(1) {
-      transform: scale(0.75) translate(400px, 200px);
+      transform: scale(0.75) translate(75px, 200px);
       background-color: hsla(0, 100%, 50%, 0.75);
     }
     .drop:nth-child(2),
     .drop1:nth-child(2),
     .drop2:nth-child(2) {
-      transform: scale(0.75) translate(220px, 100px);
+      transform: scale(0.75) translate(150px, 100px);
       background-color: hsla(188, 100%, 50%, 0.75);
     }
     .drop:nth-child(3),
     .drop1:nth-child(3),
     .drop2:nth-child(3) {
-      transform: scale(0.65) translate(80px, 40px);
+      transform: scale(0.65) translate(250px, 40px);
       background-color: hsla(136, 100%, 50%, 0.75);
     }
     .drop:nth-child(4),
     .drop1:nth-child(4),
     .drop2:nth-child(4) {
-      transform: scale(0.8) translate(250px, 150px);
+      transform: scale(0.8) translate(325px, 150px);
       background-color: hsla(35, 100%, 50%, 0.75);
     }
     .drop:nth-child(5),
     .drop1:nth-child(5),
     .drop2:nth-child(5) {
       transform: scale(0.75) translate(375px, 500px);
-      background-color: hsla(80, 100%, 50%, 0.75);
+      background-color: hsla(264, 100%, 50%, 0.75);
     }
     .drop:nth-child(6),
     .drop1:nth-child(6),
