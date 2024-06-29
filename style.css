@@ -100,7 +100,7 @@ body {
 .drop:nth-child(2),
 .drop1:nth-child(2),
 .drop2:nth-child(2) {
-  transform: scale(0.66) translate(200px, 100px);
+  transform: scale(0.66) translate(220px, 100px);
 }
 .drop:nth-child(3),
 .drop1:nth-child(3),
